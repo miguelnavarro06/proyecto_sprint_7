@@ -18,3 +18,4 @@ if scattering_button:
     fig = go.Figure(data=[go.Scatter(x=car_data['odometer'], y=car_data['price'], mode='markers')])
     fig.update_layout(title_text='Relacion odometro vs precio')
     st.plotly_chart(fig, use_container_width=True)
+    
